@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dusgra d.o.o</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./public/favicon.png">
+
+    <!--
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body class="bg-dark">
+    <div class="container-fluid main">
+        <div class="wrap">
+            <a href="./public/index.html">
+                <button class="btn btn-light p-3" style="background-color: #80c4ec; border-color: #80c4ec;">Nastavi na
+                    web
+                    stranicu</button>
+            </a>
+        </div>
+    </div>
+</body>
+
+
+<script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js"></script>
+<script>
+    var firebaseConfig = {
+        apiKey: "AIzaSyD-ZqHO2-8Y2PvTWK3IowKS4hfA8lbGQwo",
+        authDomain: "dusgra-1014e.firebaseapp.com",
+        projectId: "dusgra-1014e",
+        storageBucket: "dusgra-1014e.appspot.com",
+        messagingSenderId: "585746395383",
+        appId: "1:585746395383:web:e6ea812a7c92fa0c6723f2"
+    };
+    firebase.initializeApp(firebaseConfig);
+</script>
+
+<!--
+<script src="../node_modules\jquery\dist\jquery.min.js"></script>
+<script src="./bootstrap/js/bootstrap.min.js"></script>
+-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</html>
