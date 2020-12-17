@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Dosis", sans-serif;
+}
+
+#landing {
+  height: 100vh;
+  background-image: url("https://i.pinimg.com/originals/39/e9/d1/39e9d1860d0bb96812acf442da21d90a.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-shadow {
+  text-shadow: 0 0 7px #000000;
+}
+
+.parallax {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#contact-image {
+  height: 500px;
+  background-image: url("https://images.pexels.com/photos/5239868/pexels-photo-5239868.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.contact-main .col-md-5 {
+  max-height: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-main {
+  position: relative;
+  margin-top: -150px;
+}
+
+.accentColor {
+  color: #80c4ec;
+}
+
+#partners .col-md-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-logo {
+  opacity: 0.5;
+}
+
+.brand-logo-vokel {
+  opacity: 0.3;
+}
